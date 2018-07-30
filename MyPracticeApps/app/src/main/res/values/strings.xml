@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">MyPracticeApps</string>
+    <string-array name="planets">
+        <item>Mercury</item>
+        <item>Venus</item>
+        <item>Earth</item>
+        <item>Mars</item>
+        <item>Jupiter</item>
+        <item>Saturn</item>
+        <item>Uranus</item>
+        <item>Neptune</item>
+        <item>Pluto</item>
+    </string-array>
+    <string name="title_activity_auto_complete_text_view">AutoCompleteTextViewActivity</string>
+    <string name="title_activity_list_view">ListViewActivity</string>
+    <string name="alert_dialog">Alert Dialog</string>
+</resources>
