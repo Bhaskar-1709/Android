@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+<manifest
+    xmlns:android="http://schemas.android.com/apk/res/android"
     package="io.technicalhub.mypracticeapps">
 
     <application
@@ -16,14 +17,14 @@
         <activity
             android:name=".AutoCompleteTextViewActivity"
             android:label="@string/title_activity_auto_complete_text_view"
-            android:theme="@style/AppTheme.NoActionBar"/>
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".ListViewActivity"
             android:label="@string/title_activity_list_view"
-            android:theme="@style/AppTheme.NoActionBar">
-
-        </activity>
+            android:theme="@style/AppTheme.NoActionBar"/>
         <activity android:name=".AlertDialogActivity">
+        </activity>
+        <activity android:name=".CustomAlertDialogActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
