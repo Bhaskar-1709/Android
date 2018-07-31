@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<manifest
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="io.technicalhub.mypracticeapps">
 
     <application
@@ -21,10 +20,11 @@
         <activity
             android:name=".ListViewActivity"
             android:label="@string/title_activity_list_view"
-            android:theme="@style/AppTheme.NoActionBar"/>
-        <activity android:name=".AlertDialogActivity">
-        </activity>
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".AlertDialogActivity"/>
         <activity android:name=".CustomAlertDialogActivity">
+        </activity>
+        <activity android:name=".SharedPreferencesActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
